@@ -1,6 +1,6 @@
 # DoomsPoint para Xteink X4
 
-Este projeto é uma versão experimental do [CrossPoint Reader](https://github.com/crosspoint-reader/crosspoint-reader) para o **Xteink X4 original**, que usa botões e não tem tela sensível ao toque. O [firmware para X4](./firmware/CrossPoint-Doomsday-X4.bin) compilou no ambiente `gh_release`, mas **ainda não foi testado no aparelho**.
+Este projeto é uma versão experimental do [CrossPoint Reader](https://github.com/crosspoint-reader/crosspoint-reader) para o **Xteink X4 original**, que usa botões e não tem tela sensível ao toque. O [firmware para X4](./firmware/CrossPoint-Doomsday-X4.bin) compilou no ambiente `gh_release`. A instalação por cartão SD e a presença do treino na tela inicial foram confirmadas em um X4 com CrossPoint 1.6.0; as funções do treino, wallpapers e repouso ainda precisam de testes no aparelho.
 
 ## O que este fork acrescenta
 
@@ -14,6 +14,8 @@ Este projeto é uma versão experimental do [CrossPoint Reader](https://github.c
 2. Abra o [gravador oficial do CrossPoint](https://crosspointreader.com/#flash-tools) no Chrome ou Edge.
 3. Selecione **X4** (não X4 Pro nem X4 Classic), escolha **Custom .bin** e indique o arquivo baixado.
 4. Após a gravação e a reinicialização, abra **Treino Doomsday** na tela inicial. Para os wallpapers, configure as opções descritas acima.
+
+Se o X4 **já roda CrossPoint** e não aparece por USB, use **Transferência** para enviar o `.bin` por Wi-Fi à raiz do cartão SD. Depois, no leitor, abra **Configurações > Sistema > Atualização de firmware via cartão SD**, selecione o arquivo e confirme. Esse caminho foi usado para instalar o firmware em um X4 com CrossPoint 1.6.0; veja os [passos completos](./docs/doomsday-drill.md).
 
 Veja o [guia completo do Doomsday e dos wallpapers](./docs/doomsday-drill.md). As instruções gerais do CrossPoint original seguem abaixo.
 
