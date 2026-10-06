@@ -1,6 +1,21 @@
-# CrossPoint Reader
+# DoomsPoint para Xteink X4
 
-> Este repositório é uma versão experimental do [CrossPoint Reader](https://github.com/crosspoint-reader/crosspoint-reader) para o Xteink X4, com treino Doomsday offline e rotação de wallpapers. O firmware em [`firmware/CrossPoint-Doomsday-X4.bin`](./firmware/CrossPoint-Doomsday-X4.bin) compilou no ambiente `gh_release`, mas ainda não foi testado no aparelho. Consulte [as instruções e limitações](./docs/doomsday-drill.md) antes de instalar.
+Este projeto é uma versão experimental do [CrossPoint Reader](https://github.com/crosspoint-reader/crosspoint-reader) para o **Xteink X4 original**, que usa botões e não tem tela sensível ao toque. O [firmware para X4](./firmware/CrossPoint-Doomsday-X4.bin) compilou no ambiente `gh_release`, mas **ainda não foi testado no aparelho**.
+
+## O que este fork acrescenta
+
+- **Treino Doomsday offline na tela inicial:** mostra uma data aleatória para você calcular o dia da semana. Use **Confirmar** para revelar a resposta e parar o cronômetro, **Esquerda** para marcar erro, **Direita** para marcar acerto e **Confirmar** novamente para continuar. **Voltar** encerra a sessão; acertos, erros e média são zerados ao sair ou reiniciar. O treino acompanha o idioma e o modo noturno configurados no CrossPoint.
+- **Rotação opcional de wallpapers:** coloque imagens BMP na pasta `/sleep` do cartão SD, selecione **Tela de repouso > Personalizada** e ative **Alternar papéis de parede**. Cada repouso mostra a próxima imagem; após a última, a sequência recomeça. Com a opção desligada, permanece a seleção original do CrossPoint.
+- **Wallpaper após o tempo de inatividade:** com **Tela de repouso > Personalizada**, a opção **Tempo para repouso** coloca o X4 em repouso e mostra o wallpaper ao terminar o prazo, mesmo se **Retomada rápida após tempo limite** estiver ligada. Se a tela de repouso estiver definida como **Retomada rápida**, a página do livro com o ícone de lua continua sendo o comportamento escolhido.
+
+## Instalar esta versão no X4
+
+1. Baixe [`CrossPoint-Doomsday-X4.bin`](./firmware/CrossPoint-Doomsday-X4.bin) e conecte o X4 ligado ao computador com um cabo USB-C de dados.
+2. Abra o [gravador oficial do CrossPoint](https://crosspointreader.com/#flash-tools) no Chrome ou Edge.
+3. Selecione **X4** (não X4 Pro nem X4 Classic), escolha **Custom .bin** e indique o arquivo baixado.
+4. Após a gravação e a reinicialização, abra **Treino Doomsday** na tela inicial. Para os wallpapers, configure as opções descritas acima.
+
+Veja o [guia completo do Doomsday e dos wallpapers](./docs/doomsday-drill.md). As instruções gerais do CrossPoint original seguem abaixo.
 
 [![Fund contributors](https://img.shields.io/badge/%F0%9F%91%91_Fund_contributors-royalty.dev-BB953A?style=for-the-badge&labelColor=1a1a1a)](https://app.royalty.dev/crosspoint-reader/crosspoint-reader)
 
