@@ -2,7 +2,7 @@
 
 O código do firmware está em [MultCraft1007/doomspoint](https://github.com/MultCraft1007/doomspoint). O projeto web `doomsdayclock` é separado e não faz parte deste repositório.
 
-O firmware em [`firmware/CrossPoint-Doomsday-X4.bin`](../firmware/CrossPoint-Doomsday-X4.bin) foi compilado para o Xteink X4. A instalação por cartão SD e a entrada do treino na tela inicial foram confirmadas em um X4; as demais funções ainda precisam de testes. Consulte [as instruções de instalação e uso](./doomsday-drill.md).
+O firmware em [`firmware/CrossPoint-Doomsday-X4.bin`](../firmware/CrossPoint-Doomsday-X4.bin) foi compilado para o Xteink X4. A instalação por cartão SD e as funções adicionadas foram testadas pelo proprietário em um X4. Consulte [as instruções de instalação e uso](./doomsday-drill.md).
 
 Para baixar o código completo, incluindo o submódulo FreeInk:
 

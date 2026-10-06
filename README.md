@@ -1,6 +1,6 @@
 # DoomsPoint para Xteink X4
 
-Este projeto é uma versão experimental do [CrossPoint Reader](https://github.com/crosspoint-reader/crosspoint-reader) para o **Xteink X4 original**, que usa botões e não tem tela sensível ao toque. O [firmware para X4](./firmware/CrossPoint-Doomsday-X4.bin) compilou no ambiente `gh_release`. A instalação por cartão SD e a presença do treino na tela inicial foram confirmadas em um X4 com CrossPoint 1.6.0; as funções do treino, wallpapers e repouso ainda precisam de testes no aparelho.
+Este projeto é uma versão experimental do [CrossPoint Reader](https://github.com/crosspoint-reader/crosspoint-reader) para o **Xteink X4 original**, que usa botões e não tem tela sensível ao toque. O [firmware para X4](./firmware/CrossPoint-Doomsday-X4.bin) compilou no ambiente `gh_release`. A instalação por cartão SD e o funcionamento do treino, da rotação de wallpapers e do repouso por tempo foram confirmados pelo proprietário em um X4 com CrossPoint 1.6.0.
 
 ## O que este fork acrescenta
 

@@ -2,7 +2,7 @@
 
 O treino aparece como **Treino Doomsday** na tela inicial (ou “Doomsday Drill” em inglês). Ele roda no leitor, sem navegador, Wi-Fi ou cartão SD durante a sessão.
 
-O firmware para o Xteink X4 já foi compilado como [`CrossPoint-Doomsday-X4.bin`](../firmware/CrossPoint-Doomsday-X4.bin). A instalação por cartão SD e a entrada **Treino Doomsday** na tela inicial foram confirmadas em um X4 com CrossPoint 1.6.0. As demais funções ainda precisam ser testadas no aparelho. Para instalar por USB:
+O firmware para o Xteink X4 já foi compilado como [`CrossPoint-Doomsday-X4.bin`](../firmware/CrossPoint-Doomsday-X4.bin). A instalação por cartão SD e o funcionamento do treino, da rotação de wallpapers e do repouso por tempo foram confirmados pelo proprietário em um X4 com CrossPoint 1.6.0. Para instalar por USB:
 
 1. Conecte o X4 ligado ao computador com um cabo USB-C que transfira dados.
 2. Abra o [flasher oficial do CrossPoint](https://crosspointreader.com/#flash-tools) em Chrome ou Edge.
