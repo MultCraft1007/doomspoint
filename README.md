@@ -158,7 +158,7 @@ Conversion runs the firmware repo's `lib/EpdFont/scripts/fontconvert_sdcard.py` 
 - [Web server endpoints](./docs/webserver-endpoints.md)
 - [Project scope](./SCOPE.md)
 - [Offline Doomsday drill](./docs/doomsday-drill.md)
-- [Publicar este fork no GitHub](./docs/publicar-no-github.md)
+- [Repositório DoomsPoint](./docs/publicar-no-github.md)
 - [Contributing docs](./docs/contributing/README.md)
 - [Touch and UI development](./docs/contributing/touch-and-ui.md) - how to build new screens on the FreeInkUI activity bases (UiListActivity and friends), plus build envs for the non-Xteink touch devices
 
